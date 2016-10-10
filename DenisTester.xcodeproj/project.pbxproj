@@ -7,23 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33BF7479172E555E0004A4EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF7478172E555E0004A4EA /* UIKit.framework */; };
-		33BF747B172E555E0004A4EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF747A172E555E0004A4EA /* Foundation.framework */; };
-		33BF747D172E555E0004A4EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF747C172E555E0004A4EA /* CoreGraphics.framework */; };
+		192E5B961AC3191B0010B798 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 192E5B851AC3191B0010B798 /* AbstractActionSheetPicker.m */; };
+		192E5B971AC3191B0010B798 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 192E5B871AC3191B0010B798 /* ActionSheetCustomPicker.m */; };
+		192E5B981AC3191B0010B798 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 192E5B8A1AC3191B0010B798 /* ActionSheetDatePicker.m */; };
+		192E5B991AC3191B0010B798 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 192E5B8C1AC3191B0010B798 /* ActionSheetDistancePicker.m */; };
+		192E5B9A1AC3191B0010B798 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 192E5B8E1AC3191B0010B798 /* ActionSheetLocalePicker.m */; };
+		192E5B9B1AC3191B0010B798 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 192E5B911AC3191B0010B798 /* ActionSheetStringPicker.m */; };
+		192E5B9C1AC3191B0010B798 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 192E5B931AC3191B0010B798 /* DistancePickerView.m */; };
+		192E5B9D1AC3191B0010B798 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 192E5B951AC3191B0010B798 /* SWActionSheet.m */; };
+		33179EFD194D8DB40072D376 /* denPluginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33179EFC194D8DB40072D376 /* denPluginViewController.m */; };
+		3348D0221AD26145009C7270 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3348D0211AD26144009C7270 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		334D2FF918979AD100BEDB29 /* GTWebBridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D2FF818979AD100BEDB29 /* GTWebBridgeViewController.m */; };
+		33525EB41753B73600231E90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33525EB31753B73600231E90 /* Security.framework */; };
+		33525EB61753B73E00231E90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33525EB51753B73E00231E90 /* SystemConfiguration.framework */; };
+		33726C7218291748000B517E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33726C7118291748000B517E /* AssetsLibrary.framework */; };
+		33726C741829175D000B517E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33726C731829175D000B517E /* CoreLocation.framework */; };
+		33726C7618291767000B517E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33726C7518291767000B517E /* CoreMotion.framework */; };
+		33726C7818291778000B517E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33726C7718291778000B517E /* CoreText.framework */; };
+		33726C7A18291781000B517E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33726C7918291781000B517E /* MediaPlayer.framework */; };
+		3392A2AC189544B20050D20F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3392A2AB189544B20050D20F /* AddressBook.framework */; };
+		33B5961218994A48007FEEA9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B5961118994A48007FEEA9 /* MainStoryboard_iPad.storyboard */; };
+		33B8CAF01AF7626800600C65 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B8CAEF1AF7626800600C65 /* Accounts.framework */; };
+		33B8CB001B038BEC00600C65 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B8CAF11AF7626E00600C65 /* Social.framework */; };
+		33BF7479172E555E0004A4EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF7478172E555E0004A4EA /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		33BF747B172E555E0004A4EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF747A172E555E0004A4EA /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		33BF747D172E555E0004A4EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF747C172E555E0004A4EA /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		33BF7483172E555E0004A4EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33BF7481172E555E0004A4EA /* InfoPlist.strings */; };
 		33BF7485172E555E0004A4EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF7484172E555E0004A4EA /* main.m */; };
 		33BF7489172E555E0004A4EA /* denAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF7488172E555E0004A4EA /* denAppDelegate.m */; };
 		33BF748B172E555E0004A4EA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BF748A172E555E0004A4EA /* Default.png */; };
 		33BF748D172E555E0004A4EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BF748C172E555E0004A4EA /* Default@2x.png */; };
 		33BF748F172E555E0004A4EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BF748E172E555E0004A4EA /* Default-568h@2x.png */; };
-		33BF7492172E555E0004A4EA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BF7490172E555E0004A4EA /* MainStoryboard_iPhone.storyboard */; };
-		33BF7495172E555E0004A4EA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BF7493172E555E0004A4EA /* MainStoryboard_iPad.storyboard */; };
 		33BF7498172E555E0004A4EA /* denViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF7497172E555E0004A4EA /* denViewController.m */; };
-		33BF74A0172E555E0004A4EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF749F172E555E0004A4EA /* SenTestingKit.framework */; };
 		33BF74A1172E555E0004A4EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF7478172E555E0004A4EA /* UIKit.framework */; };
 		33BF74A2172E555E0004A4EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF747A172E555E0004A4EA /* Foundation.framework */; };
 		33BF74AA172E555E0004A4EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33BF74A8172E555E0004A4EA /* InfoPlist.strings */; };
 		33BF74AD172E555E0004A4EA /* DenisTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF74AC172E555E0004A4EA /* DenisTesterTests.m */; };
+		33DD4B01178553D000D0ECDC /* set.json in Resources */ = {isa = PBXBuildFile; fileRef = 33DD4B00178553D000D0ECDC /* set.json */; };
+		556545231D943121002F79CE /* GigyaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556545221D943121002F79CE /* GigyaSDK.framework */; };
+		559B5D391D76BE0600AD032D /* Photo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 559B5D381D76BE0600AD032D /* Photo.txt */; };
+		5C58D18A416DFC5F8F3410AC /* libPods-DenisTester.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE77F755F91652680033CC4A /* libPods-DenisTester.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +60,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		192E5B841AC3191B0010B798 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		192E5B851AC3191B0010B798 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		192E5B861AC3191B0010B798 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		192E5B871AC3191B0010B798 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		192E5B881AC3191B0010B798 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		192E5B891AC3191B0010B798 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		192E5B8A1AC3191B0010B798 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		192E5B8B1AC3191B0010B798 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		192E5B8C1AC3191B0010B798 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		192E5B8D1AC3191B0010B798 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		192E5B8E1AC3191B0010B798 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		192E5B8F1AC3191B0010B798 /* ActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		192E5B901AC3191B0010B798 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		192E5B911AC3191B0010B798 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		192E5B921AC3191B0010B798 /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		192E5B931AC3191B0010B798 /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		192E5B941AC3191B0010B798 /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		192E5B951AC3191B0010B798 /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		33179EFB194D8DB40072D376 /* denPluginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = denPluginViewController.h; sourceTree = "<group>"; };
+		33179EFC194D8DB40072D376 /* denPluginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = denPluginViewController.m; sourceTree = "<group>"; };
+		3348D0211AD26144009C7270 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		334D2FF718979AD100BEDB29 /* GTWebBridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTWebBridgeViewController.h; sourceTree = "<group>"; };
+		334D2FF818979AD100BEDB29 /* GTWebBridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTWebBridgeViewController.m; sourceTree = "<group>"; };
+		33525EB31753B73600231E90 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		33525EB51753B73E00231E90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		33726C7118291748000B517E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		33726C731829175D000B517E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		33726C7518291767000B517E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		33726C7718291778000B517E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		33726C7918291781000B517E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3392A2AB189544B20050D20F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		33B5961118994A48007FEEA9 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		33B8CAEF1AF7626800600C65 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		33B8CAF11AF7626E00600C65 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		33BF7475172E555E0004A4EA /* DenisTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DenisTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BF7478172E555E0004A4EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		33BF747A172E555E0004A4EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,16 +107,20 @@
 		33BF748A172E555E0004A4EA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		33BF748C172E555E0004A4EA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		33BF748E172E555E0004A4EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		33BF7491172E555E0004A4EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		33BF7494172E555E0004A4EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		33BF7496172E555E0004A4EA /* denViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = denViewController.h; sourceTree = "<group>"; };
 		33BF7497172E555E0004A4EA /* denViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = denViewController.m; sourceTree = "<group>"; };
 		33BF749E172E555E0004A4EA /* DenisTesterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DenisTesterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33BF749F172E555E0004A4EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		33BF74A7172E555E0004A4EA /* DenisTesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DenisTesterTests-Info.plist"; sourceTree = "<group>"; };
 		33BF74A9172E555E0004A4EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33BF74AB172E555E0004A4EA /* DenisTesterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DenisTesterTests.h; sourceTree = "<group>"; };
 		33BF74AC172E555E0004A4EA /* DenisTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DenisTesterTests.m; sourceTree = "<group>"; };
+		33D8FF24172E5CDB00C7F437 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		33DD4B00178553D000D0ECDC /* set.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = set.json; sourceTree = "<group>"; };
+		556545221D943121002F79CE /* GigyaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GigyaSDK.framework; sourceTree = "<group>"; };
+		559B5D381D76BE0600AD032D /* Photo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Photo.txt; sourceTree = "<group>"; };
+		AE5B9B9B36F4F7189EF26224 /* Pods-DenisTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DenisTester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DenisTester/Pods-DenisTester.debug.xcconfig"; sourceTree = "<group>"; };
+		AE77F755F91652680033CC4A /* libPods-DenisTester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DenisTester.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16E14C4A22892A1EAB4AB28 /* Pods-DenisTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DenisTester.release.xcconfig"; path = "Pods/Target Support Files/Pods-DenisTester/Pods-DenisTester.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +128,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BF7479172E555E0004A4EA /* UIKit.framework in Frameworks */,
-				33BF747B172E555E0004A4EA /* Foundation.framework in Frameworks */,
+				33B8CB001B038BEC00600C65 /* Social.framework in Frameworks */,
+				556545231D943121002F79CE /* GigyaSDK.framework in Frameworks */,
+				33B8CAF01AF7626800600C65 /* Accounts.framework in Frameworks */,
+				3348D0221AD26145009C7270 /* WebKit.framework in Frameworks */,
+				3392A2AC189544B20050D20F /* AddressBook.framework in Frameworks */,
+				33726C7A18291781000B517E /* MediaPlayer.framework in Frameworks */,
+				33726C7818291778000B517E /* CoreText.framework in Frameworks */,
 				33BF747D172E555E0004A4EA /* CoreGraphics.framework in Frameworks */,
+				33726C7618291767000B517E /* CoreMotion.framework in Frameworks */,
+				33726C741829175D000B517E /* CoreLocation.framework in Frameworks */,
+				33BF747B172E555E0004A4EA /* Foundation.framework in Frameworks */,
+				33726C7218291748000B517E /* AssetsLibrary.framework in Frameworks */,
+				33525EB61753B73E00231E90 /* SystemConfiguration.framework in Frameworks */,
+				33525EB41753B73600231E90 /* Security.framework in Frameworks */,
+				33BF7479172E555E0004A4EA /* UIKit.framework in Frameworks */,
+				5C58D18A416DFC5F8F3410AC /* libPods-DenisTester.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +151,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BF74A0172E555E0004A4EA /* SenTestingKit.framework in Frameworks */,
 				33BF74A1172E555E0004A4EA /* UIKit.framework in Frameworks */,
 				33BF74A2172E555E0004A4EA /* Foundation.framework in Frameworks */,
 			);
@@ -86,6 +159,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		192E5B821AC3191B0010B798 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				192E5B831AC3191B0010B798 /* Pickers */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		192E5B831AC3191B0010B798 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				192E5B841AC3191B0010B798 /* AbstractActionSheetPicker.h */,
+				192E5B851AC3191B0010B798 /* AbstractActionSheetPicker.m */,
+				192E5B861AC3191B0010B798 /* ActionSheetCustomPicker.h */,
+				192E5B871AC3191B0010B798 /* ActionSheetCustomPicker.m */,
+				192E5B881AC3191B0010B798 /* ActionSheetCustomPickerDelegate.h */,
+				192E5B891AC3191B0010B798 /* ActionSheetDatePicker.h */,
+				192E5B8A1AC3191B0010B798 /* ActionSheetDatePicker.m */,
+				192E5B8B1AC3191B0010B798 /* ActionSheetDistancePicker.h */,
+				192E5B8C1AC3191B0010B798 /* ActionSheetDistancePicker.m */,
+				192E5B8D1AC3191B0010B798 /* ActionSheetLocalePicker.h */,
+				192E5B8E1AC3191B0010B798 /* ActionSheetLocalePicker.m */,
+				192E5B8F1AC3191B0010B798 /* ActionSheetPicker.h */,
+				192E5B901AC3191B0010B798 /* ActionSheetStringPicker.h */,
+				192E5B911AC3191B0010B798 /* ActionSheetStringPicker.m */,
+				192E5B921AC3191B0010B798 /* DistancePickerView.h */,
+				192E5B931AC3191B0010B798 /* DistancePickerView.m */,
+				192E5B941AC3191B0010B798 /* SWActionSheet.h */,
+				192E5B951AC3191B0010B798 /* SWActionSheet.m */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
 		33BF746C172E555E0004A4EA = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +199,7 @@
 				33BF74A5172E555E0004A4EA /* DenisTesterTests */,
 				33BF7477172E555E0004A4EA /* Frameworks */,
 				33BF7476172E555E0004A4EA /* Products */,
+				72A1968397B9D4FCD6D183A9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,10 +215,23 @@
 		33BF7477172E555E0004A4EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				556545221D943121002F79CE /* GigyaSDK.framework */,
+				33B8CAF11AF7626E00600C65 /* Social.framework */,
+				33B8CAEF1AF7626800600C65 /* Accounts.framework */,
+				3348D0211AD26144009C7270 /* WebKit.framework */,
+				3392A2AB189544B20050D20F /* AddressBook.framework */,
+				33726C7918291781000B517E /* MediaPlayer.framework */,
+				33726C7718291778000B517E /* CoreText.framework */,
+				33726C7518291767000B517E /* CoreMotion.framework */,
+				33726C731829175D000B517E /* CoreLocation.framework */,
+				33726C7118291748000B517E /* AssetsLibrary.framework */,
+				33525EB51753B73E00231E90 /* SystemConfiguration.framework */,
+				33525EB31753B73600231E90 /* Security.framework */,
+				33D8FF24172E5CDB00C7F437 /* AdSupport.framework */,
 				33BF7478172E555E0004A4EA /* UIKit.framework */,
 				33BF747A172E555E0004A4EA /* Foundation.framework */,
 				33BF747C172E555E0004A4EA /* CoreGraphics.framework */,
-				33BF749F172E555E0004A4EA /* SenTestingKit.framework */,
+				AE77F755F91652680033CC4A /* libPods-DenisTester.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,12 +239,18 @@
 		33BF747E172E555E0004A4EA /* DenisTester */ = {
 			isa = PBXGroup;
 			children = (
+				192E5B821AC3191B0010B798 /* vendor */,
+				33B5961118994A48007FEEA9 /* MainStoryboard_iPad.storyboard */,
+				334D2FF718979AD100BEDB29 /* GTWebBridgeViewController.h */,
+				334D2FF818979AD100BEDB29 /* GTWebBridgeViewController.m */,
+				33DD4B00178553D000D0ECDC /* set.json */,
+				559B5D381D76BE0600AD032D /* Photo.txt */,
 				33BF7487172E555E0004A4EA /* denAppDelegate.h */,
 				33BF7488172E555E0004A4EA /* denAppDelegate.m */,
-				33BF7490172E555E0004A4EA /* MainStoryboard_iPhone.storyboard */,
-				33BF7493172E555E0004A4EA /* MainStoryboard_iPad.storyboard */,
 				33BF7496172E555E0004A4EA /* denViewController.h */,
 				33BF7497172E555E0004A4EA /* denViewController.m */,
+				33179EFB194D8DB40072D376 /* denPluginViewController.h */,
+				33179EFC194D8DB40072D376 /* denPluginViewController.m */,
 				33BF747F172E555E0004A4EA /* Supporting Files */,
 			);
 			path = DenisTester;
@@ -163,6 +289,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		72A1968397B9D4FCD6D183A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE5B9B9B36F4F7189EF26224 /* Pods-DenisTester.debug.xcconfig */,
+				D16E14C4A22892A1EAB4AB28 /* Pods-DenisTester.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33BF74B0172E555E0004A4EA /* Build configuration list for PBXNativeTarget "DenisTester" */;
 			buildPhases = (
+				1B4D0690C27B96FEE409F29D /* [CP] Check Pods Manifest.lock */,
 				33BF7471172E555E0004A4EA /* Sources */,
 				33BF7472172E555E0004A4EA /* Frameworks */,
 				33BF7473172E555E0004A4EA /* Resources */,
+				E6566A9D327F07777C925DFD /* [CP] Embed Pods Frameworks */,
+				F9FC574884691EA591292AF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,10 +325,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33BF74B3172E555E0004A4EA /* Build configuration list for PBXNativeTarget "DenisTesterTests" */;
 			buildPhases = (
+				4B74F6C9F505C17D3E5DEA94 /* [CP] Check Pods Manifest.lock */,
 				33BF7499172E555E0004A4EA /* Sources */,
 				33BF749A172E555E0004A4EA /* Frameworks */,
 				33BF749B172E555E0004A4EA /* Resources */,
 				33BF749C172E555E0004A4EA /* ShellScript */,
+				A04273F62895A0F0AE65E638 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,7 +340,7 @@
 			name = DenisTesterTests;
 			productName = DenisTesterTests;
 			productReference = 33BF749E172E555E0004A4EA /* DenisTesterTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -209,8 +349,14 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = den;
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Gigya QA";
+				TargetAttributes = {
+					33BF7474172E555E0004A4EA = {
+						DevelopmentTeam = PWUZYLM9DQ;
+					};
+				};
 			};
 			buildConfigurationList = 33BF7470172E555E0004A4EA /* Build configuration list for PBXProject "DenisTester" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,6 +364,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				he,
 			);
 			mainGroup = 33BF746C172E555E0004A4EA;
 			productRefGroup = 33BF7476172E555E0004A4EA /* Products */;
@@ -235,12 +382,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559B5D391D76BE0600AD032D /* Photo.txt in Resources */,
+				33B5961218994A48007FEEA9 /* MainStoryboard_iPad.storyboard in Resources */,
 				33BF7483172E555E0004A4EA /* InfoPlist.strings in Resources */,
 				33BF748B172E555E0004A4EA /* Default.png in Resources */,
 				33BF748D172E555E0004A4EA /* Default@2x.png in Resources */,
 				33BF748F172E555E0004A4EA /* Default-568h@2x.png in Resources */,
-				33BF7492172E555E0004A4EA /* MainStoryboard_iPhone.storyboard in Resources */,
-				33BF7495172E555E0004A4EA /* MainStoryboard_iPad.storyboard in Resources */,
+				33DD4B01178553D000D0ECDC /* set.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +403,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1B4D0690C27B96FEE409F29D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		33BF749C172E555E0004A4EA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,6 +431,66 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		4B74F6C9F505C17D3E5DEA94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A04273F62895A0F0AE65E638 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DenisTesterTests/Pods-DenisTesterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6566A9D327F07777C925DFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DenisTester/Pods-DenisTester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9FC574884691EA591292AF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DenisTester/Pods-DenisTester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,9 +498,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192E5B991AC3191B0010B798 /* ActionSheetDistancePicker.m in Sources */,
+				192E5B9B1AC3191B0010B798 /* ActionSheetStringPicker.m in Sources */,
+				192E5B9A1AC3191B0010B798 /* ActionSheetLocalePicker.m in Sources */,
+				192E5B9C1AC3191B0010B798 /* DistancePickerView.m in Sources */,
 				33BF7485172E555E0004A4EA /* main.m in Sources */,
+				33179EFD194D8DB40072D376 /* denPluginViewController.m in Sources */,
 				33BF7489172E555E0004A4EA /* denAppDelegate.m in Sources */,
+				192E5B961AC3191B0010B798 /* AbstractActionSheetPicker.m in Sources */,
 				33BF7498172E555E0004A4EA /* denViewController.m in Sources */,
+				192E5B981AC3191B0010B798 /* ActionSheetDatePicker.m in Sources */,
+				192E5B9D1AC3191B0010B798 /* SWActionSheet.m in Sources */,
+				334D2FF918979AD100BEDB29 /* GTWebBridgeViewController.m in Sources */,
+				192E5B971AC3191B0010B798 /* ActionSheetCustomPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,22 +541,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		33BF7490172E555E0004A4EA /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33BF7491172E555E0004A4EA /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		33BF7493172E555E0004A4EA /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33BF7494172E555E0004A4EA /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		33BF74A8172E555E0004A4EA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,8 +564,10 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: aliza@gigya-inc.com (9656YFLXX8)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -360,10 +579,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -379,14 +600,16 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: aliza@gigya-inc.com (9656YFLXX8)";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -395,10 +618,23 @@
 		};
 		33BF74B1172E555E0004A4EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5B9B9B36F4F7189EF26224 /* Pods-DenisTester.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DenisTester/DenisTester-Prefix.pch";
 				INFOPLIST_FILE = "DenisTester/DenisTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gigyaqa.DenisTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,10 +642,23 @@
 		};
 		33BF74B2172E555E0004A4EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16E14C4A22892A1EAB4AB28 /* Pods-DenisTester.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DenisTester/DenisTester-Prefix.pch";
 				INFOPLIST_FILE = "DenisTester/DenisTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gigyaqa.DenisTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -422,10 +671,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DenisTester/DenisTester-Prefix.pch";
 				INFOPLIST_FILE = "DenisTesterTests/DenisTesterTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "gigyaqa.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -439,10 +690,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DenisTester/DenisTester-Prefix.pch";
 				INFOPLIST_FILE = "DenisTesterTests/DenisTesterTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "gigyaqa.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -468,6 +721,7 @@
 				33BF74B2172E555E0004A4EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33BF74B3172E555E0004A4EA /* Build configuration list for PBXNativeTarget "DenisTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +730,7 @@
 				33BF74B5172E555E0004A4EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

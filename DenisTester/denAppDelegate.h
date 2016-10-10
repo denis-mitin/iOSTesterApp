@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GigyaSDK/Gigya.h>
+#import <Bolts/Bolts.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKShareKit/FBSDKShareKit.h>
 
 @interface denAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+// @property (strong, nonatomic) GSAPI* gsAPI;
 
 @end
