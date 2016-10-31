@@ -47,7 +47,9 @@
     [GSWebBridge registerWebView:self.webView delegate:self];
     [self.webView setDelegate:self];
     
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://sociallogin.org/QA/site/denis/oauth2/jssdk/"]]];
+  //  [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://sociallogin.org/QA/site/denis/oauth2/jssdk/"]]];
+    
+     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://qagroup1.com/QA/site/denis/oauth2/jssdk/"]]];
     
     //[self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://sociallogin.org/qa/site/andrey/mobile/href.htm?apikey=3_wJo2JBfQO09OzjVvvt6F-0oEd8igVPLLRRXXqgNGvOkQyVUP9wWZxg_kIEMnbE9n"]]];
     //[self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://nhl.com"]]];

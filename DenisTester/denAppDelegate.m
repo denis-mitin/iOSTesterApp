@@ -38,15 +38,15 @@
     //[Gigya initWithAPIKey:@"3_PrJU94R8nIylcnsY0nyf1fQgq62FHZ7bMOI-73sUZHw_aM_uvj9IS-tODCSfHPw9" application:application launchOptions:launchOptions]; //sociallogin.org local il1a
     
     //[Gigya initWithAPIKey:@"3_1ST4slgK10MUhy4K4ehagNjgoXR97EoqKAZsOjebrzvjqMoH55F3zpOo3wgq7JUS"  application:application launchOptions:launchOptions APIDomain:@"ru1.gigya.com"]; //denis.ru
-    
- [Gigya initWithAPIKey:@"3_wJo2JBfQO09OzjVvvt6F-0oEd8igVPLLRRXXqgNGvOkQyVUP9wWZxg_kIEMnbE9n" application:application launchOptions:launchOptions]; //sociallogin.org Prod 176663209146906 / Sociallogin.org - qa-app10
+  //main
+    [Gigya initWithAPIKey:@"3_wJo2JBfQO09OzjVvvt6F-0oEd8igVPLLRRXXqgNGvOkQyVUP9wWZxg_kIEMnbE9n" application:application launchOptions:launchOptions]; //sociallogin.org Prod 176663209146906 / Sociallogin.org - qa-app10
 ///self.gsAPI = [[GSAPI alloc] initWithAPIKey:@"3_wJo2JBfQO09OzjVvvt6F-0oEd8igVPLLRRXXqgNGvOkQyVUP9wWZxg_kIEMnbE9n"];
     //sociallogin.org
    //[Gigya initWithAPIKey:@"2_DJDxNTrvx_QC313MDs_6Byos-ua1lHs5S1-fH32d-MznZn-gLccOid6IYt1D2f26" application:application launchOptions:launchOptions]; //bsocialize.com
   // [Gigya initWithAPIKey:@"3_9Ss9hAAwCWuF6JJDStpwF9UqIFCO5SU0XnXl1QjsYwW_R262yICuBiA8wpjzp6aQ" APIDomain:@"eu1.gigya.com"]; //bsocializeeu.com
  
     //[Gigya initWithAPIKey:@"3_rnylxaXmqRFLbILkPIV1cQJhIvlMOwjcFSmKOQiuWxPmd5KBKOP_LUdfS6z_luEh" application:application launchOptions:launchOptions];
- // [Gigya initWithAPIKey:@"2_NGWPcIQU-iNWg06QwYu3Y9wDseMse_9AeQMBhfaLzjhTYIjUaFDO1vwri0v8Ga3R"]; //qagroup.com 740588265999474 qagrv2 - Test1
+ // [Gigya initWithAPIKey:@"2_NGWPcIQU-iNWg06QwYu3Y9wDseMse_9AeQMBhfaLzjhTYIjUaFDO1vwri0v8Ga3R" application:application launchOptions:launchOptions]; //qagroup.com 740588265999474 qagrv2 - Test1
     //[Gigya initWithAPIKey:@"3_WsQePJtcdFQFr0jEi1G1ZtCs9Q3IYEXbCGmtVGCzLOU_SMJua_5PToIKKfVucB39"]; //guy
     //[Gigya initWithAPIKey:@"3_cXcJmTJFeAvPAxrb3Y4bVs3RDIQbX4uhpQ7alLFpA5rIARD1U7JyU5LG63N67FQg" ]; //american idol
 //[Gigya initWithAPIKey:@"2_pd9mRZHRYIukd6DpOMReSfqTpuF0K4eHN_cz3hYmMGx8zmPE3ObXwGQCSKZ4FS1O" ]; //nhl.com

@@ -465,6 +465,20 @@ NSString *regToken;
         
         @try {
             [Gigya showPluginDialogOver:self plugin:m parameters:json completionHandler:^(BOOL closedByUser, NSError *error) {
+               /* GSRequest *req = [GSRequest requestForMethod:@"accounts.getAccountInfo"];
+                
+                [req sendWithResponseHandler:^(GSResponse *resp, NSError*error) {
+                    
+                    if (!error) {
+                        NSLog(@"#### Success! Use the response object. %@",resp);
+                        self.Output.text = @"# Success! Use the response object. %@",resp;
+                        
+                    }
+                    else {
+                        NSLog(@"Error. %@",error);
+                        self.Output.text = @"Error. %@",error;
+                    }
+                }];*/
                 NSLog(@"Closed by user = %i \n%@ ", closedByUser, error);
                 self.Output.text = [NSString stringWithFormat:@"Closed by user = %i %@ ", closedByUser, error];
             } delegate:self];
